@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(171, 211, 211);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: blue;
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(80, 11, 126);
+}
+.first{
+    color: brown;
+}
+.second{
+    color: blueviolet;
+}
+.third{
+    color: rgb(76, 134, 18);
+}
