@@ -1,0 +1,25 @@
+#corpo{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#cabecalho{
+    background-color: black;
+    height: 250px;
+    position: relative;
+}
+#titulo_main{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#subtitulo{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(100%,-50%);
+    
+}
