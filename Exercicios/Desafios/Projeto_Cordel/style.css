@@ -1,25 +1,57 @@
-#corpo{
+@charset "UTF-8";
+*{
     margin: 0;
     padding: 0;
-    border: 0;
 }
-#cabecalho{
+body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
     background-color: black;
-    height: 250px;
-    position: relative;
-}
-#titulo_main{
-    position: absolute;
     color: white;
-    font-size: 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
 }
-#subtitulo{
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 30px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(117, 112, 112);
     color: white;
-    font-size: 30px;
-    position: absolute;
-    transform: translate(100%,-50%);
-    
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(59, 58, 58);
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    transition: transform 0.1s linear;
+}
+a:hover{
+    display: inline-block;
+    transform: scale(1.02);
+    transition: transform 0.1s linear;
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
 }
