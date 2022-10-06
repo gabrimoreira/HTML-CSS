@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Shadows+Into+Light&display=swap');
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Alkalami', serif;
+    --fonte3: 'Shadows Into Light', cursive;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +12,7 @@
 body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -15,6 +22,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -23,6 +32,10 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+    padding-left: 20px;
+    line-height: 1em;
 }
 section.normal{
     background-color: white;
@@ -33,7 +46,8 @@ section.imagem{
     color: white;
 }
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(59, 58, 58);
 }
 a{
